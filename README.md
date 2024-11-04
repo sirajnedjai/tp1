@@ -31,3 +31,17 @@ int main(){
             printf("\n");
         }
 }
+
+
+
+3_)#include<stdio.h>
+int main(){
+int T[5],i,j;
+printf("matrix row pair:\n");
+    for (i = 1; i < 4; i++) {
+        for (j = 0; j < 5; j += 2) {
+            printf("%c ", T[i][j]);
+        }
+        printf("\n");
+    }
+}
