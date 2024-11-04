@@ -30,6 +30,7 @@ int main(){
             }
             printf("\n");
         }
+    return 0;
 }
 
 
@@ -44,4 +45,5 @@ printf("matrix row pair:\n");
         }
         printf("\n");
     }
+    return 0;
 }
