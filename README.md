@@ -1,4 +1,4 @@
-#include <stdio.h>
+1_)#include <stdio.h>
 
 int main() {
 int i,j;
@@ -16,4 +16,18 @@ int i,j;
     }
 
     return 0;
+}
+
+
+
+2_)#include<stdio.h>
+int main(){
+    int T[5],i,j;
+    printf("matrix row pair:\n");
+        for (i = 1; i < 4; i += 2) {
+            for (j = 0; j < 5; j++) {
+                printf("%c ", T[i][j]);
+            }
+            printf("\n");
+        }
 }
