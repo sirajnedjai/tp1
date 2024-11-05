@@ -11,7 +11,7 @@ int i,j;
     };
     for ( i = 0; i < 5; i++) {
         for ( j = 0; j < 5; j++) {
-            printf("%d ", T[i][j]);
+            printf("%d \t", T[i][j]);
         }
         printf("\n");
     }
