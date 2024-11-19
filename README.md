@@ -31,5 +31,19 @@ int i,j;
             }
             printf("\n");
         }
+        printf("diagona:\n");
+        for (i = 0; i < 5; i++) {
+            for (j = i; j < 5; j++) {
+                printf("%d \t ", T[i][j]);
+            }
+            printf("\n");
+        }
+        printf("diagona:\n");
+        for (i = 5-i; i < 5; i++) {
+            for (j = i; j < 5; j ++) {
+                printf("%d \t ", T[i][j]);
+            }
+            printf("\n");
+        }
     return 0;
 }
